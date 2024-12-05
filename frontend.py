@@ -201,4 +201,8 @@ if st.button("Plot the Linear Regression", key="plot_button"):
     
     else:
         st.error("Please upload a dataset first.")
+        
+PREDICT_ENDPOINT = "https://star-size-predictor-bk3h.onrender.com/predict/"
+PLOT_ENDPOINT = "https://star-size-predictor-bk3h.onrender.com/plot/"
+CREATE_DATASET_ENDPOINT = "https://star-size-predictor-bk3h.onrender.com/create_dataset/"
     
