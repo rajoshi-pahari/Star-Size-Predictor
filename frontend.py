@@ -93,7 +93,7 @@ button {
 st.markdown(button_style, unsafe_allow_html=True)
 
 # API Base URL
-BASE_URL = "http://127.0.0.1:8000"  # Replace with your FastAPI server URL
+BASE_URL = "https://star-size-predictor-bk3h.onrender.com/"  # Replace with your FastAPI server URL
 
 st.markdown("Upload your dataset or generate a dataset to predict the size of a star based on its brightness!")
 
